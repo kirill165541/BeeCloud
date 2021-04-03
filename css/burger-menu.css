@@ -2,6 +2,10 @@ body.active {
 	overflow: hidden;
 }
 
+.page-wrap.active {
+	filter: blur(30px);
+}
+
 .mobile-burger-menu.active {
 	position: absolute;
 	display: flex;
