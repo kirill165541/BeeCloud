@@ -263,6 +263,7 @@
 	.components {
 		position: initial;
 		justify-content: space-around;
+		margin: 0  54px;
 	}
 
 	.item-component {
