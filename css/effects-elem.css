@@ -1,0 +1,50 @@
+.connect-email:focus, .connect-email:hover {
+		border: 2px solid #F2C94C;
+		filter: drop-shadow(0px 4px 22px #F2C94C);
+}
+
+.connect-button:hover, .connect-button-mobile:hover {
+	background: #282828;
+	box-shadow: 0px 16px 40px rgba(40, 40, 40, 0.7);
+}
+
+.category:hover {
+	box-shadow: 0px 6.6568px 13.3136px rgba(0, 0, 0, 0.03);
+}
+
+.category-game:hover {
+	background: url(../icon/for-game.png) no-repeat 24px center, #F1C84C;
+}
+
+.category-relax:hover {
+	background: url(../icon/tv.png) no-repeat 24px center, #F1C84C;
+}
+
+.category-work:hover {
+	background: url(../icon/Feature-Icon.png) no-repeat 24px center, #F1C84C;
+}
+
+.service-connect-email:focus, .service-connect-email:hover {
+	background: #F2C94C;
+	box-shadow: 0px 40px 50px rgba(0, 0, 0, 0.25);
+	filter: initial;
+	opacity: 0.95;
+}
+
+.faq-item-desc {
+	display: none;
+	padding: 40px;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 37px;
+	color: #DBDBDB;
+	background: transparent;
+}
+
+.faq-item-desc-click {
+	display: block;
+}
+
+.faq-item_p-bachground {
+    background-image: url(../svg/arrowUp.svg);
+}
