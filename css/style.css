@@ -120,7 +120,6 @@ body {
 }
 
 .description-h1 {
-    /*height: 219px;*/
     font-weight: bold;
     font-size: 60px;
     line-height: 73px;
@@ -131,7 +130,6 @@ body {
     /* Inside Auto Layout */ /*спросить зачем стили ниже, взяты из figma*/
     flex: none;
     order: 0;
-    align-self: center;
     flex-grow: 0;
 }
 
@@ -302,16 +300,6 @@ body {
     top: 48.53%;
     background-image: url(../icon/Feature-Icon.png);
 }
-
-/*.category-span {
-    padding-left: 110px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 21px;
-    line-height: 31px;
-    color: #DBDBDB;
-}*/
 
 .rect-curve {
     background: url(../svg/Star1.svg) no-repeat 11.93% 24.98%,
@@ -742,7 +730,7 @@ body {
 
 .check-button,
 .check-email {
-    position: initial;
+    position: static;
 }
 
 .faq-header {
